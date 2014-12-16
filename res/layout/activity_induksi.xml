@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="5dp"
+    tools:context="id.mahmud.gametebakgambar.InduksiActivity" >
+
+    <ImageView
+        android:id="@+id/imageberhasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/induksimagnet" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/imageberhasil"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="JAWAB DI SINI"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:typeface="sans" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnnewgame"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_toRightOf="@+id/editText1"
+        android:background="#916f3a"
+        android:onClick="cekjawaban"
+        android:text="Cek"
+        android:textStyle="bold" />
+
+</RelativeLayout>

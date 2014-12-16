@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game Tebak Gambar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_induksi">Gambar</string>
+    <string name="title_activity_kapten">Gambar</string>
+    <string name="title_activity_akal_bulus">Gambar</string>
+    <string name="title_activity_alaskaki">Gambar</string>
+    <string name="title_activity_angkat_laut">Gambar</string>
+    <string name="title_activity_asimislasi_oksigen">Gambar</string>
+    <string name="title_activity_baling_pesawat">Gambar</string>
+    <string name="title_activity_biasa_pusing">Gambar</string>
+    <string name="title_activity_cakar_kucing">Gambar</string>
+    <string name="title_activity_cuma_sinis">Gambar</string>
+    <string name="title_activity_energi_gitaris">Gambar</string>
+    <string name="title_activity_anjing_tetangga">Gambar</string>
+    <string name="title_activity_jawaban_benar">Benar Semua</string>
+    <string name="title_activity_cara_main">Game</string>
+
+</resources>

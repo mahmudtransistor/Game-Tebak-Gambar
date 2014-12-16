@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.mahmud.gametebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InduksiActivity"
+            android:label="@string/title_activity_induksi" >
+        </activity>
+        <activity
+            android:name=".KaptenActivity"
+            android:label="@string/title_activity_kapten" >
+        </activity>
+        <activity
+            android:name=".AkalBulusActivity"
+            android:label="@string/title_activity_akal_bulus" >
+        </activity>
+        <activity
+            android:name=".AlaskakiActivity"
+            android:label="@string/title_activity_alaskaki" >
+        </activity>
+        <activity
+            android:name=".AngkatLautActivity"
+            android:label="@string/title_activity_angkat_laut" >
+        </activity>
+        <activity
+            android:name=".AsimislasiOksigenActivity"
+            android:label="@string/title_activity_asimislasi_oksigen" >
+        </activity>
+        <activity
+            android:name=".BalingPesawatActivity"
+            android:label="@string/title_activity_baling_pesawat" >
+        </activity>
+        <activity
+            android:name=".BiasaPusingActivity"
+            android:label="@string/title_activity_biasa_pusing" >
+        </activity>
+        <activity
+            android:name=".CakarKucingActivity"
+            android:label="@string/title_activity_cakar_kucing" >
+        </activity>
+        <activity
+            android:name=".CumaSinisActivity"
+            android:label="@string/title_activity_cuma_sinis" >
+        </activity>
+        <activity
+            android:name=".EnergiGitarisActivity"
+            android:label="@string/title_activity_energi_gitaris" >
+        </activity>
+        <activity
+            android:name=".AnjingTetanggaActivity"
+            android:label="@string/title_activity_anjing_tetangga" >
+        </activity>
+        <activity
+            android:name=".JawabanBenarActivity"
+            android:label="@string/title_activity_jawaban_benar" >
+        </activity>
+        <activity
+            android:name=".CaraMainActivity"
+            android:label="@string/title_activity_cara_main" >
+        </activity>
+    </application>
+
+</manifest>
